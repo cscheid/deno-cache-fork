@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog], and this project adheres to
 [Semantic Versioning].
 
+## [0.2.14] - 2024-02-27
+
+### Features
+
+- bump deps ([`3e77799d`])
+
 ## [0.2.13] - 2021-05-18
 
 ### Features
@@ -114,6 +120,8 @@ The format is based on [Keep a Changelog], and this project adheres to
 
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
+[0.2.14]: First release of fork
+[`3e77799`]: https://github.com/cscheid/deno-cache-fork/commit/3e77799dd46f685377a0888fb2a02361ab6e7a1b
 [0.2.13]: https://github.com/denosaurs/cache/compare/0.2.12...0.2.13
 [`6068b4b`]: https://github.com/denosaurs/cache/commit/6068b4b76e5bd79f4eda33d4dbf0d140ff5af149
 [`2a1166d`]: https://github.com/denosaurs/cache/commit/2a1166d9ef5079e3a9fcfba7441312126719b94a
