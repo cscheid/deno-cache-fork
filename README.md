@@ -19,6 +19,9 @@ console.log(text);
 
 ## Maintainers
 
+- Carlos Scheidegger (this fork) ([@cscheid](https://github.com/cscheid))
+
+Upstream maintainers:
 - Filippo Rossi ([@qu4k](https://github.com/qu4k))
 - Elias Sjögreen ([@eliassjogreen](https://github.com/eliassjogreen))
 
@@ -31,5 +34,11 @@ Pull request, issues and feedback are very welcome. Code style is formatted with
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) spec.
 
 ### Licence
+
+#### Fork
+
+Copyright 2024, Posit PBC. All rights reserved. MIT license.
+
+#### Upstream
 
 Copyright 2020-2023, the denosaurs team. All rights reserved. MIT license.
