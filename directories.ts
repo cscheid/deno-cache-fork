@@ -36,7 +36,7 @@ export function cachedir(): string {
       break;
   }
 
-  path = home ? path : ".deno";
+  path = home ? path! : ".deno";
   if (!home) return path;
   return resolve(join(home, path));
 }
@@ -49,17 +49,11 @@ export function tmpdir(): string {
   if (tmp) return resolve(tmp);
 
   switch (os) {
-    case "linux":
-    case "darwin":
-    case "aix":
-    case "freebsd":
-    case "illumos":
-    case "netbsd":
-    case "solaris":
-      return resolve("/tmp");
     case "windows":
       return resolve(
         join(env("HOMEDRIVE") ?? env("SYSTEMDRIVE") ?? "C:", "TEMP"),
       );
+    default:
+      return resolve("/tmp");
   }
 }
